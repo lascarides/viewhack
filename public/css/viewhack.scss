@@ -1,4 +1,33 @@
+$cGray: #e3e3d4;
+
 body, h1, h2, h3 {
 	font-family: "Avenir";
+}
+
+.video {
+
+	.video-box {
+		height: 400px;
+		background: $cGray;
+	}
+
+}
+
+.audio {
+
+	.audio-box {
+		height: 200px;
+		background: $cGray;
+	}
+
+}
+
+.image {
+
+	.image-box {
+		height: 400px;
+		background: $cGray;
+	}
+
 }
 

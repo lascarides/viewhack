@@ -1,2 +1,14 @@
 body, h1, h2, h3 {
   font-family: "Avenir"; }
+
+.video .video-box {
+  height: 400px;
+  background: #e3e3d4; }
+
+.audio .audio-box {
+  height: 200px;
+  background: #e3e3d4; }
+
+.image .image-box {
+  height: 400px;
+  background: #e3e3d4; }
