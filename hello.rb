@@ -25,4 +25,14 @@ get '/image' do
 	haml :image
 end
 
+get '/ebook' do
+	haml :ebook
+end
 
+get '/multipage' do
+	haml :multipage
+end
+
+get '/complex' do 
+	haml :complex
+end
