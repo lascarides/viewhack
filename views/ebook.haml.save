@@ -1,0 +1,8 @@
+.ebook
+	.row
+		.col-md-12
+			%h1 Some ebook reading systems title
+
+	.row
+		%iframe{:src => "http://readk.it/dist/readkit.library/library/solo/978-1-927145-20-3_flight_of_the_huia__preview_.html", :width => "1200", :height => "800"}
+

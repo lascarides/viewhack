@@ -1,7 +1,41 @@
 .ebook
 	.row
 		.col-md-12
-			%h1 Sample ebook title
-
-
+		%h1 Ebook reading and interactions
+		%p The NDHA delivers ebooks as epub and pdf but we must also bare in mind that some digitised books have been done as multiple images.
+		%p Examples of ebooks in NDHA
+		%ul
+			%li
+				%a{ :href => "/files/adventuresingeyserland-warbrick.epub"}
+					Adventures in geyserland epub
+			%li
+				%a{ :href => "http://ndhadeliver.natlib.govt.nz/delivery/DeliveryManagerServlet?dps_pid=IE17354702"}
+					Adventures in geyserland in NDHA (see here for PDF - 20MB!)
+	.row
+		.col-md-6
+			%h2 Ebook reading systems
+			%ul
+				%li Readk.it
+				%li EPUBReader browser extension
+				%li FBreader
+		
+		.col-md-6
+			%h2 Ebook reader elements
+			%ul
+				%li Leaf pages
+				%li Browse chapters
+				%li Download in epub, pdf, etc.
+				%li Search text
+				%li Keyboard controls
+				%li Etc.
+	.row	
+		%h3 Screen from FBreader
+		%img{:src => "/images/Adventures-in-geyserland-fbreader.png"}
+	.row 
+		%h3 Screen from EPUBReader
+		%img{:src => "/images/Adventures-in-geyserland-epubreader.png"}
+	.row
+		%h3 Example from Readk.it
+		%p Click one of the font option buttons and use arrow keys to use iframe
+		%iframe{:src => "http://readk.it/dist/readkit.library/library/solo/978-1-927145-20-3_flight_of_the_huia__preview_.html", :width => "1200", :height => "800"}
 
